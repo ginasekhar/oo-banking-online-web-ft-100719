@@ -28,6 +28,7 @@ class Transfer
         @sender.balance += amount
         @receiver.balance -= amount
         @status = "reversed"
+      end
   end
   
 end
